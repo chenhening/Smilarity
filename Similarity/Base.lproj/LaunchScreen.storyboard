@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ixu-PF-V6b">
+                                <rect key="frame" x="160" y="0.0" width="1" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="9rv-UR-GyX"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D5C28937-E209-45B1-8A14-974CCA3FAF82" translatesAutoresizingMaskIntoConstraints="NO" id="vdq-eY-V4G">
+                                <rect key="frame" x="118" y="242" width="84" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="VII-FT-TTJ"/>
+                                    <constraint firstAttribute="width" constant="84" id="gIL-oC-2H9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.81568627450980391" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ixu-PF-V6b" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="D3K-MD-xhQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ixu-PF-V6b" secondAttribute="bottom" id="DYh-kI-lrl"/>
+                            <constraint firstItem="vdq-eY-V4G" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fpE-Nx-Jes"/>
+                            <constraint firstItem="vdq-eY-V4G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iSl-sA-eqH"/>
+                            <constraint firstItem="ixu-PF-V6b" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jbY-GW-nE9"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.266666666666666" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="D5C28937-E209-45B1-8A14-974CCA3FAF82" width="86" height="86"/>
+    </resources>
+</document>
